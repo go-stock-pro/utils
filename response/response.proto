@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package response;
+
+option go_package = "/protos";
+
+// import "google/protobuf/any.proto";
+
+// message InternalErr {
+//     int32 code = 1;
+//     string message = 2;
+//     google.protobuf.Any error = 3;
+//     string traceId = 4;
+//     string field = 5;
+//     string type = 6;
+//     string value = 7;
+//     repeated string stackTrace = 8;
+// }
+
+// message BodyStruct {
+//     google.rpc.Status status = 1;
+//     int32 statusCode = 2;
+//     string message = 3;
+//     InternalErr error = 4;
+//     google.protobuf.Any data = 5;
+// }
